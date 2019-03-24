@@ -1,0 +1,12 @@
+#Словарь
+life = {'animals': {'cats': ['Henri', 'Grumpy', 'Lucy'], 'octopi': ('Doctor Octopus', 'The Kraken', 'Squidward'),
+                    'emus': 'Not done yet'},
+        'plants': 'Not done yet',
+        'other': 'Not done yet'}
+ks = list(life.keys())
+an = list(life['animals'])
+print('dictionary Life:', ks)
+print('dictionary animals:', an)
+print('подраздел cats:', life['animals']['cats'])
+print('подраздел octopi:', life['animals']['octopi'])
+print('подраздел emus:', life['animals']['emus'])
