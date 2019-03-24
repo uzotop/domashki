@@ -1,0 +1,9 @@
+#things
+things = ['mozzarella', 'cinderella', 'salmonella']
+things[1] = 'Cinderella'
+print('Пишем имя с заглавной буквы:', things)
+things[0]=things[0].upper()
+print('Пишем сыр верхним регистром:', things)
+things.pop(2)
+print('Удаляем болезнь. Вам положена Нобелевская премия!')
+print(things)
