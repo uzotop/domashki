@@ -1,0 +1,9 @@
+#guess me
+guess_me = '7' #почему с кавычками работает?
+x = input('Угадайте число: ')
+if guess_me == x:
+        print('Угадал!')
+else:
+        print('Неа!')
+
+print('Ответ', guess_me)
